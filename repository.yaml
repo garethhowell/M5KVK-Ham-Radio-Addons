@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Example Home Assistant add-on repository
-url: 'https://github.com/home-assistant/addons-example'
-maintainer: Awesome Maintainer <awesome@example.com>
+name: FRStack repository
+url: "https://github.com/garethhowell/addons-frstack"
+maintainer: Gareth Howell - M5KVK <gareth.m5kvk@gmail.com>
