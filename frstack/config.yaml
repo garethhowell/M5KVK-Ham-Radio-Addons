@@ -15,8 +15,8 @@ map:
   - type: share
     read_only: false
   - type: ssl
-#options:
-#  message: "Hello world..."
+options:
+  message: "This is FRStack..."
 #schema:
 #  message: "str?"
 #image: "ghcr.io/home-assistant/{arch}-addon-example"
