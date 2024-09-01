@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: "FRStack"
-version: "0.0.1a"
+version: "0.0.1d"
 slug: frstack
 description: Runs FRstack to interact with a Flex radio
 url: "https://github.com/garethhowell/addons-frstack"
@@ -16,7 +16,9 @@ map:
     read_only: false
   - type: ssl
 options:
-  message: "This is FRStack..."
-#schema:
-#  message: "str?"
+  radio: null
+ports:
+  5025/tcp: null
+schema:
+  port: int?
 #image: "ghcr.io/home-assistant/{arch}-addon-example"
