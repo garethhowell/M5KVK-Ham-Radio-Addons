@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "All done!" > /share/frstack_addon_output.txt
