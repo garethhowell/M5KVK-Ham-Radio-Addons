@@ -1,4 +1,4 @@
-# Home Assistant Add-on: FRStack add-on
+# FRStack add-on for Home Assistant
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
