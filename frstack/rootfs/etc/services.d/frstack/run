@@ -4,8 +4,6 @@
 # s6-overlay docs: https://github.com/just-containers/s6-overlay
 # ==============================================================================
 
-FRSTACK_PORT="$(bashio::addon.port 5025)"
-
 # Start FRstack
 bashio::log.info "Starting FRStack"
 exec dotnet /usr/local/frstack/FRStackWebApi.dll \

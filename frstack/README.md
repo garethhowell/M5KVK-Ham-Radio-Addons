@@ -1,4 +1,10 @@
 # FRStack add-on for Home Assistant
+Simple addon that runs a local version of the [FRStackWebApi.dll][API] code produced by
+[Mark Hanson - W3II][W3II] of [MKCM Software][MKCM].
+
+[API]: https://www.mkcmsoftware.com/download/FRStackWebApiReadme.html
+[W3II]: https://www.qrz.com/db/W3II
+[MKCM]: https://www.mkcmsoftware.com
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]

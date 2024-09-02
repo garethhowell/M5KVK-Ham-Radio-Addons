@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: "FRStack"
-version: "0.0.1d"
+version: "0.0.1e"
 slug: frstack
-description: Runs FRstack to interact with a Flex radio
-url: "https://github.com/garethhowell/addons-frstack"
+description: Runs FRStackWebApi.dll to interact with a Flex radio
+url: "https://github.com/garethhowell/m5kvk-ham-radio-addons/frstack"
 arch:
   - armhf
   - armv7
@@ -18,7 +18,7 @@ map:
 options:
   radio: null
 ports:
-  5025/tcp: null
+  5025/tcp: 5025
 schema:
   port: int?
 #image: "ghcr.io/home-assistant/{arch}-addon-example"
