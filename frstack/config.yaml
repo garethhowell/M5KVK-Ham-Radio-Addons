@@ -5,20 +5,16 @@ slug: frstack
 description: Runs FRStackWebApi.dll to interact with a Flex radio
 url: "https://github.com/garethhowell/m5kvk-ham-radio-addons/frstack"
 arch:
-  - armhf
-  - armv7
+  #  - armhf
+  #  - armv7
   - aarch64
-  - amd64
-  - i386
+#  - amd64
+#  - i386
 init: false
 map:
   - type: share
     read_only: false
   - type: ssl
-options:
-  radio: null
 ports:
-  5025/tcp: 5025
-schema:
-  port: int?
+  5000/tcp: 5025
 #image: "ghcr.io/home-assistant/{arch}-addon-example"
