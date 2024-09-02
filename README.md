@@ -1,10 +1,20 @@
-# FRStack Addon
+# M5KVK Ham Radio Addons for Home Assistant
+
+A collection of addons that I have created to use at my [remote shack][SHACK].
 
 ## Add-ons
 
 This repository contains the following add-ons
 
 ### [FRStack add-on](./frstack)
+Runs the [FRStackWebApi][API] developed by [Mark Harrison - W3II][W3II] of [MKCM Software][MKCM]. 
+This avoids me having to leave [FRStack][FRSTACK] itself running on the Windows PC in my remote shack
+
+[API]: https://www.mkcmsoftware.com/download/FRStackWebApiReadme.html
+[W3II]: https://www.qrz.com/db/W3II
+[MKCM]: https://www.mkcmsoftware.com
+[FRSTACK]: https://www.mkcmsoftware.com/Flex/Index
+[SHACK]: https://garethhowell.com/wp/radios/my-remote-shack/
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
