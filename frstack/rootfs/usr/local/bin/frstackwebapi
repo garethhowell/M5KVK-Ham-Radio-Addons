@@ -1,9 +1,9 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
 # Start FRStack
-# s6-overlay docs: https://github.com/just-containers/s6-overlay
 # ==============================================================================
 
 # Start FRstack
-
-exec /usr/local/bin/frstackwebapi
+bashio::log.info "Starting FRStack"
+bashio::log.debug "FRStack port is ${PORT}"
+dotnet /usr/local/frstack/FRStackWebApi.dll

@@ -33,4 +33,4 @@ RUN \
 
 # Copy root filesystem
 COPY rootfs /
-RUN chmod +x /etc/services.d/frstack/run
+RUN chmod +x /usr/local/bin/frstackwebapi
