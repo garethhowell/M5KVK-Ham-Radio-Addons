@@ -5,5 +5,5 @@
 
 # Start FRstack
 bashio::log.info "Starting FRStack"
-bashio::log.debug "FRStack port is ${PORT}"
-dotnet /usr/local/frstack/FRStackWebApi.dll
+#bashio::log.debug "FRStack port is ${PORT}"
+dotnet /usr/local/frstack/FRStackWebApi.dll --urls "http://*.5025"

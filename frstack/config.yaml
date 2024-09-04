@@ -6,9 +6,9 @@ description: Runs FRStackWebApi.dll to interact with a Flex radio
 url: "https://github.com/garethhowell/m5kvk-ham-radio-addons/frstack"
 arch:
   #  - armhf
-  #  - armv7
-  - aarch64
-#  - amd64
+  - armv7
+  #- aarch64
+  - amd64
 #  - i386
 init: false
 map:
