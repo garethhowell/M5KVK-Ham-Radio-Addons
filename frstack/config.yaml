@@ -16,5 +16,5 @@ map:
     read_only: false
   - type: ssl
 ports:
-  5000/tcp: 5025
+  5025/tcp: 5025
 #image: "ghcr.io/home-assistant/{arch}-addon-example"
