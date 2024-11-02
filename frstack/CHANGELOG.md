@@ -2,4 +2,8 @@
 
 ## 0.0.1
 
-- Initial release
+- Initial release running in dev container
+
+## 0.0.2
+
+- Running of `amd64` variant

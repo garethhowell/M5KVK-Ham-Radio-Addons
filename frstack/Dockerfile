@@ -44,7 +44,8 @@ RUN \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-win-x64_${API_VERSION}.zip && \
   unzip FRStackWebApi-win-x64_${API_VERSION}.zip; \
   fi
+#RUN chmod +x /usr/local/bin/frstackwebapi
 
 # Copy root filesystem
 COPY rootfs /
-RUN chmod +x /usr/local/bin/frstackwebapi
+WORKDIR /

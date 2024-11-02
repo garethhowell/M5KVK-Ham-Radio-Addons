@@ -5,5 +5,8 @@
 # ==============================================================================
 
 # Start FRstack
+bashio::log.info "Starting FRStack version ${API_VERSION}"
+bashio::log.debug "Arch is ${BUILD_ARCH}"
+bashio::log.debug "FRStack port is ${PORT}"
 
 exec /usr/local/bin/frstackwebapi

@@ -8,6 +8,8 @@ See the [README][API] on the [MKCM Website][MKCM] for more details.
 This initial release uses the version of `appsettings.json` supplied with the package.
 It doesn't not allow this to be edited.
 
+## Installation
+
 [API]: https://www.mkcmsoftware.com/download/FRStackWebApiReadme.html
 [W3II]: https://www.qrz.com/db/W3II
 [MKCM]: https://www.mkcmsoftware.com
