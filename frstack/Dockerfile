@@ -50,4 +50,4 @@ RUN \
 # Copy root filesystem
 #COPY rootfs /
 WORKDIR /usr/local/frstack
-CMD [ "/usr/local/bin/dotnet", "/usr/local/frstack/FRStackWebApi.dll", "--urls http://*.5025" ]
+CMD /usr/local/bin/dotnet /usr/local/frstack/FRStackWebApi.dll --urls "http://*.5025"
