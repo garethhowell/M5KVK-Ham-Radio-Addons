@@ -50,4 +50,4 @@ RUN \
 # Copy root filesystem
 #COPY rootfs /
 WORKDIR /usr/local/frstack
-ENTRYPOINT [ "dotnet", "FRStackWebApi.dll" ]
+ENTRYPOINT [ "dotnet", "-d", "-v diag", "FRStackWebApi.dll" ]
