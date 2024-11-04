@@ -29,7 +29,6 @@ RUN \
 # Install the appropriate version of FRstackWebApi.dll
 RUN mkdir -p /usr/local/frstack
 WORKDIR /usr/local/frstack
-RUN echo "arch = ${BUILD_ARCH}; ver = ${API_VERSION}" > arch
 RUN \
   if [ "${BUILD_ARCH}" = "armhf" ]; then  \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-rpi-arm32_${API_VERSION}.zip && \
@@ -44,8 +43,8 @@ RUN \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-win-x64_${API_VERSION}.zip && \
   unzip FRStackWebApi-win-x64_${API_VERSION}.zip; \
   fi
-#RUN chmod +x /usr/local/bin/frstackwebapi
 
 # Copy root filesystem
-COPY rootfs /
-WORKDIR /
+#COPY rootfs /
+WORKDIR /usr/local/frstack
+ENTRYPOINT [ "dotnet", "FRStackWebApi.dll" ]
