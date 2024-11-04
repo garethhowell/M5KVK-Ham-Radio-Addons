@@ -14,8 +14,8 @@ It doesn't not allow this to be edited.
 [W3II]: https://www.qrz.com/db/W3II
 [MKCM]: https://www.mkcmsoftware.com
 [REST]: https://en.wikipedia.org/wiki/REST
-[//]: # "![Supports aarch64 Architecture][aarch64-shield]"
 
+![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armhf Architecture][armhf-shield]
 
