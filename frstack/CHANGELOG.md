@@ -2,8 +2,8 @@
 
 ## 0.0.1
 
-- Initial release running in dev container
+- Initial release of FRStackWebAPI version 3.7.3_74 running in a VSCode dev container
 
 ## 0.0.2
 
-- Running of `amd64` variant
+- `amd64` variant running

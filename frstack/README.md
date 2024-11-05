@@ -5,11 +5,15 @@ This is a simple addon that runs the [FRStackWebApi.dll][API] code produced by
 FRStackWebAPI allows a ham to control a Flex radio using a [REST][REST] API.
 See the [README][API] on the [MKCM Website][MKCM] for more details.
 
-This initial release uses the version of `appsettings.json` supplied with the package.
+_This initial release uses the version of `appsettings.json` supplied with the package.
 It doesn't not allow this to be edited.
+It has not been tested on `armv7` or `i386` architectures._
 
 ## Installation
 
+To install the add-on, follow the instruction steps from the [README on GitHub][README]
+
+[README]: https://github.com/garethhowell/M5KVK-Ham-Radio-Addons/blob/main/frstack/README.md
 [API]: https://www.mkcmsoftware.com/download/FRStackWebApiReadme.html
 [W3II]: https://www.qrz.com/db/W3II
 [MKCM]: https://www.mkcmsoftware.com
