@@ -50,4 +50,4 @@ RUN \
 # Copy root filesystem
 #COPY rootfs /
 WORKDIR /opt/frstack
-CMD ["dotnet", "FRStackWebApi.dll", "--urls http://*:5025"]
+CMD dotnet FRStackWebApi.dll --urls http://*:5025
