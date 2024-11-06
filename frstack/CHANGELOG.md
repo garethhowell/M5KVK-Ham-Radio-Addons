@@ -22,3 +22,7 @@
 
 - First released version.
 - Does not have pre-built images. The container will automatically build locally.
+
+# 1.0.1
+
+- Minor correction in devcontainer.json
