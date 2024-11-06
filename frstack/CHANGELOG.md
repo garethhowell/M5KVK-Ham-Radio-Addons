@@ -8,7 +8,12 @@
 
 - `amd64` variant running
 
-## 1.0.0
+## 0.1.0
 
 - Working on remote Raspberry Pi under `aarch64`
 - Discovers local radios
+
+## 0.1.1
+
+- Added `armhf` and `armv7`.
+- Testing build process
