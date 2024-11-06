@@ -13,7 +13,19 @@ It has not been tested on `armv7` or `armhf` architectures._
 
 ## Installation
 
-To install the add-on, follow the instruction steps from the [README on GitHub][README]
+Follow these steps to get the add-on installed on your system:
+
+1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on store**.
+2. Click the "..." at the top right and select **Repositories**
+3. Add this repository `https://github.com/garethhowell/M5KVK-Ham-Radio-Addons.git`
+4. Click the "..." at the top right and select **Check for updates**
+5. Find the "FRStack" add-on and click it.
+6. Click on the "INSTALL" button.
+
+## Add-on Configuration
+
+Currently, the only configuration option that can be changed is which port the addon listens on.
+It default to 5025, but can be changed.
 
 [README]: https://github.com/garethhowell/M5KVK-Ham-Radio-Addons/blob/main/frstack/README.md
 [API]: https://www.mkcmsoftware.com/download/FRStackWebApiReadme.html
