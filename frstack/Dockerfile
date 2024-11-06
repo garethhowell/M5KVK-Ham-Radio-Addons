@@ -34,17 +34,14 @@ RUN \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-rpi-arm32_${API_VERSION}.zip && \
   unzip FRStackWebApi-rpi-arm32_${API_VERSION}.zip; \
   elif [ "${BUILD_ARCH}" = "armv7" ]; then  \
-  wget https://www.mkcmsoftware.com/download/FRStackWebApi-rpi-arm64_${API_VERSION}.zip && \
-  unzip FRStackWebApi-rpi-arm64_${API_VERSION}.zip; \
+  wget https://www.mkcmsoftware.com/download/FRStackWebApi-rpi-arm32_${API_VERSION}.zip && \
+  unzip FRStackWebApi-rpi-arm32_${API_VERSION}.zip; \
   elif [ "${BUILD_ARCH}" = "aarch64" ]; then  \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-rpi-arm64_${API_VERSION}.zip && \
   unzip FRStackWebApi-rpi-arm64_${API_VERSION}.zip; \
   elif [ "${BUILD_ARCH}" = "amd64" ]; then  \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-linux-x64_${API_VERSION}.zip && \
   unzip FRStackWebApi-linux-x64_${API_VERSION}.zip; \
-  elif [ "${BUILD_ARCH}" = "i386" ]; then  \
-  wget https://www.mkcmsoftware.com/download/FRStackWebApi-win-x64_${API_VERSION}.zip && \
-  unzip FRStackWebApi-win-x64_${API_VERSION}.zip; \
   fi
 
 # Copy root filesystem
