@@ -7,9 +7,12 @@ See the [README][API] on the [MKCM Website][MKCM] for more details.
 
 ## NB
 
-_This release uses the version of `appsettings.json` supplied with the package.
+_
+1. I haven't managed to use the builder, so it will build on your own machine.
+This may take a bit of time. Hopefully, I'll sort this out and re-publish
+1. This release uses the version of `appsettings.json` supplied with the package.
 It does not allow this to be edited.
-It has not been tested on `armv7` or `armhf` architectures._
+1. It has not been tested on `armv7` or `armhf` architectures._
 
 ## Installation
 

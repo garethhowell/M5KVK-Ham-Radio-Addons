@@ -17,3 +17,8 @@
 
 - Added `armhf` and `armv7`.
 - Testing build process
+
+# 1.0.0
+
+- First released version.
+- Does not have pre-built images. The container will automatically build locally.
