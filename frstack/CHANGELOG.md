@@ -1,14 +1,18 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
-# 1.0.2
+## 1.0.3
+
+- More testing
+
+## 1.0.2
 
 - Testing build process
 
-# 1.0.1
+## 1.0.1
 
 - Minor correction in devcontainer.json
 
-# 1.0.0
+## 1.0.0
 
 - First released version.
 - Does not have pre-built images. The container will automatically build locally.
