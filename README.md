@@ -9,7 +9,7 @@ This repository contains the following add-ons
 ### [FRStack add-on](./frstack)
 
 Runs the [FRStackWebApi][API] developed by [Mark Harrison - W3II][W3II] of [MKCM Software][MKCM].
-This avoids me having to leave [FRStack][FRSTACK] itself running on the Windows PC in my remote shack
+This avoids me having to leave [FRStack][FRSTACK] itself running on the Windows PC in my remote shack.
 
 [API]: https://www.mkcmsoftware.com/download/FRStackWebApiReadme.html
 [W3II]: https://www.qrz.com/db/W3II
