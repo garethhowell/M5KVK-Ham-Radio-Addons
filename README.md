@@ -7,7 +7,8 @@ A collection of addons that I have created to use at my [remote shack][SHACK].
 This repository contains the following add-ons
 
 ### [FRStack add-on](./frstack)
-Runs the [FRStackWebApi][API] developed by [Mark Harrison - W3II][W3II] of [MKCM Software][MKCM]. 
+
+Runs the [FRStackWebApi][API] developed by [Mark Harrison - W3II][W3II] of [MKCM Software][MKCM].
 This avoids me having to leave [FRStack][FRSTACK] itself running on the Windows PC in my remote shack
 
 [API]: https://www.mkcmsoftware.com/download/FRStackWebApiReadme.html
@@ -21,8 +22,6 @@ This avoids me having to leave [FRStack][FRSTACK] itself running on the Windows 
 ![Supports armhf Architecture][armhf-shield]
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
-
-To Be Added
 
 <!--
 
