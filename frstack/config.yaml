@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: "FRStackWebAPI"
-version: "1.0.1"
+version: "1.0.2"
 slug: frstackwebapi
 description: Runs FRStackWebApi.dll to interact with a Flex radio
 url: "https://github.com/garethhowell/M5KVK-Ham-Radio-Addons/tree/main/frstack"
