@@ -1,6 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 ARG API_VERSION
 ARG BUILD_FROM
+ARG SDK_VERSION
 FROM $BUILD_FROM
 
 
@@ -24,7 +25,7 @@ RUN \
 WORKDIR /temp
 RUN \
   wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh && \
-  bash ./dotnet-install.sh --version latest --runtime aspnetcore --install-dir /usr/local/bin
+  bash ./dotnet-install.sh --version ${SDK_VERSION} --runtime aspnetcore --install-dir /usr/local/bin
 
 # Install the appropriate version of FRstackWebApi.dll
 RUN mkdir -p /opt/frstack

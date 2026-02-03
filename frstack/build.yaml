@@ -13,3 +13,4 @@ labels:
 args:
   TEMPIO_VERSION: "2021.09.0"
   API_VERSION: "3_7_3_74"
+  SDK_VERSION: "3.7"
