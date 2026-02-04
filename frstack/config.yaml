@@ -13,7 +13,7 @@ init: false
 ports:
   5025/tcp: 5025
 host_network: true
-image: "garethhowell/{arch}-addon-frstack"
+image: "ghcr.io/garethhowell/{arch}-addon-frstack"
 map:
   - share
   - ssl
