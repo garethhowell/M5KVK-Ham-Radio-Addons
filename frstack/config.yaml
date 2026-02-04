@@ -5,8 +5,6 @@ slug: frstackwebapi
 description: Runs FRStackWebApi.dll to interact with a Flex radio
 url: "https://github.com/garethhowell/M5KVK-Ham-Radio-Addons/tree/main/frstack"
 arch:
-  - armv7
-  - armhf
   - aarch64
   - amd64
 
