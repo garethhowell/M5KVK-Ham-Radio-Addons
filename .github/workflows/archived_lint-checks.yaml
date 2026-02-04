@@ -62,4 +62,4 @@ jobs:
       - name: 🔎 Run markdownlint
         uses: nosborn/github-action-markdown-cli@v3.5.0
         with:
-          config_file: .markdownlint.yaml
+          config_file: linters/.markdownlint.yaml
