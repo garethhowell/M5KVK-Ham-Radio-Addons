@@ -25,7 +25,7 @@ RUN \
 WORKDIR /temp
 RUN \
   wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh && \
-  bash ./dotnet-install.sh --version ${SDK_VERSION} --runtime aspnetcore --install-dir /usr/local/bin
+  bash ./dotnet-install.sh --version latest --runtime aspnetcore --install-dir /usr/local/bin
 
 # Install the appropriate version of FRstackWebApi.dll
 RUN mkdir -p /opt/frstack
@@ -33,7 +33,7 @@ WORKDIR /opt/frstack
 RUN \
   if [ "${BUILD_ARCH}" = "armhf" ]; then  \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-rpi-arm32_${API_VERSION}.zip && \
-  unzip FRStackWebApi-rpi-arm32_${API_VERSION}.zip; \
+  unzip FRStackWebApi-rpi-arm32_3.7.3.74.zip; \
   elif [ "${BUILD_ARCH}" = "armv7" ]; then  \
   wget https://www.mkcmsoftware.com/download/FRStackWebApi-rpi-arm32_${API_VERSION}.zip && \
   unzip FRStackWebApi-rpi-arm32_${API_VERSION}.zip; \
