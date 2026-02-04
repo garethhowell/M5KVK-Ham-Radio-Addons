@@ -9,6 +9,6 @@ labels:
   org.opencontainers.image.licenses: "Apache License 2.0"
 args:
   TEMPIO_VERSION: "2021.09.0"
-  API_VERSION: "3_7_3_74"
-  SDK_VERSION: "3.7"
+  API_VERSION: "4_0_0_5"
+  SDK_VERSION: "latest"
   BASE_TAG: "3.15"

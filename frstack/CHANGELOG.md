@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.0
+
+- Update to version frstackwebapi version 4.0.0.5
+
 ## 1.04
 
 - Remove support for `armv7` and `armhf`
