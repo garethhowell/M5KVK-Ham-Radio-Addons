@@ -1,0 +1,35 @@
+---
+name: "✨ Feature request"
+description: Suggest an idea for this project
+title: "✨ [REQUEST] Addon name"
+labels: ["prevent stale", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        I didn't develop the API module that is used by this app, so I won't be able to add features to that.
+        For additions to the frstack API, you should contact Mark Hanson - W3II via QRZ.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checked
+      description: "Pre-checks"
+      options:
+        - label: "I confirm that this is not an addition to the frstack API itself."
+          required: true
+        - label: "If a new feature, I have searched in the discussions & issues that it was not already covered"
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Is your feature request related to a problem? Please describe"
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when
+    validations:
+      required: true
+  - type: textarea
+    id: description2
+    attributes:
+      label: "Describe the solution you'd like"
+      description: A clear and concise description of what you want to happen
+    validations:
+      required: true
