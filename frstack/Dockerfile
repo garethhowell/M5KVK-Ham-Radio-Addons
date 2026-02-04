@@ -1,8 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
-ARG API_VERSION
+ARG API_VERSION="latest"
+ARG BASE_TAG="3.15"
 ARG BUILD_FROM
 ARG SDK_VERSION
-FROM $BUILD_FROM
+FROM $BUILD_FROM:${BASE_TAG}
 
 
 # Execute during the build of the image
