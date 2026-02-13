@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.1.6
+
+- Revert to using builder
+
 ## 2.1.1
 
 - Fix error in build process

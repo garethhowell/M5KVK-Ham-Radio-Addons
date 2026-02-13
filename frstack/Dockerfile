@@ -25,12 +25,6 @@ RUN \
   icu-libs \
   dotnet9-sdk
 
-# install dotnet using the Microsoft install script
-#WORKDIR /temp
-#RUN \
-#  wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh && \
-#  bash ./dotnet-install.sh --version $SDK_VERSION --runtime aspnetcore --install-dir /usr/local/bin
-
 # Install the appropriate version of FRstackWebApi.dll
 RUN mkdir -p /opt/frstack
 WORKDIR /opt/frstack
