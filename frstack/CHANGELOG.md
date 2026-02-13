@@ -2,6 +2,10 @@
 
 ## 2.1
 
+- Fix error in build process
+
+## 2.1
+
 - Switch to pre-built images
 
 ## 2.0

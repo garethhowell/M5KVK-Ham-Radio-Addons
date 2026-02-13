@@ -1,8 +1,10 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 ARG API_VERSION="latest"
 ARG BASE_TAG="3.15"
-ARG BUILD_FROM
-ARG SDK_VERSION="latest"
+ARG BUILD_FROM="ghcr.io/home-assistant/aarch64-base"
+ARG SDK_VERSION="9.0.13"
+ARG BUILD_ARCH="aarch64"
+ARG TEMPIO_VERSION="2021.09.0"
 FROM $BUILD_FROM:${BASE_TAG}
 
 
@@ -24,7 +26,6 @@ RUN \
 
 # install dotnet using the Microsoft install script
 WORKDIR /temp
-RUN echo "${SDK_VERSION}"
 RUN \
   wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh && \
   bash ./dotnet-install.sh --version $SDK_VERSION --runtime aspnetcore --install-dir /usr/local/bin
