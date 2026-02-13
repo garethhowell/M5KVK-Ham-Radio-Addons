@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 ARG API_VERSION="4_0_0_5"
-ARG BASE_TAG="3.15"
+ARG BASE_TAG="3.23"
 ARG BUILD_FROM="ghcr.io/home-assistant/aarch64-base"
 ARG SDK_VERSION="9.0.13"
 ARG BUILD_ARCH="aarch64"
