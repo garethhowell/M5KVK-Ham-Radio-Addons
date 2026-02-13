@@ -1,5 +1,5 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
-ARG API_VERSION="latest"
+ARG API_VERSION="4_0_0_5"
 ARG BASE_TAG="3.15"
 ARG BUILD_FROM="ghcr.io/home-assistant/aarch64-base"
 ARG SDK_VERSION="9.0.13"
@@ -22,13 +22,14 @@ RUN \
   libssl3 \
   libstdc++ \
   zlib \
-  icu-libs
+  icu-libs \
+  dotnet9-sdk
 
 # install dotnet using the Microsoft install script
-WORKDIR /temp
-RUN \
-  wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh && \
-  bash ./dotnet-install.sh --version $SDK_VERSION --runtime aspnetcore --install-dir /usr/local/bin
+#WORKDIR /temp
+#RUN \
+#  wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh && \
+#  bash ./dotnet-install.sh --version $SDK_VERSION --runtime aspnetcore --install-dir /usr/local/bin
 
 # Install the appropriate version of FRstackWebApi.dll
 RUN mkdir -p /opt/frstack
