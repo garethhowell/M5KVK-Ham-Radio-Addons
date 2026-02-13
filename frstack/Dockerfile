@@ -16,7 +16,7 @@ RUN \
 
 # install required dependencies
 RUN \
-  apk add \
+  apk update && apk add \
   ca-certificates-bundle \
   libgcc \
   libssl3 \
